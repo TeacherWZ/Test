@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .first_div{
+            background: red;
+            width: 250px;
+            height:250px;
+
+            text-align: center;
+            line-height: 250px;
+        }
+
+        .first_div span{
+            background: green;
+
+
+        }
+
+
+        .second_div{
+            background: blue;
+            width: 250px;
+            height:250px;
+
+            line-height: 250px;
+
+            /*text-align: center;*/
+        }
+
+        .second_div p{
+            width: 60px;
+            height: 30px;
+            background: yellow;
+
+            margin: 0 auto;
+            /*text-align: center;*/
+
+
+        }
+
+        .third_div{
+            background: darkmagenta;
+            width: 250px;
+            height:250px;
+
+            text-align: center;
+            line-height: 250px;
+
+        }
+
+        /*.third_div button{*/
+            /*margin: 0 auto;*/
+            /*display: block;*/
+        /*}*/
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="first_div">
+    <!--span是内联标签,如果要让内联标签水平居中,只需要在父标签中加上text-align: center-->
+    <span>呵呵</span>
+</div>
+
+
+<div class="second_div">
+    <!--div是块级标签,如果要让块级标签水平居中,只需要在自己的标签样式中加上 margin: 0 auto-->
+    <p>嘻嘻</p>
+</div>
+
+<div class="third_div">
+    <!--内联-块级标签:如果要让内联-块级标签水平居中,只需要在父标签中加上text-align: center-->
+    <button>小度一下</button>
+</div>
+
+<!--三种标签竖直居中:只需要在父标签中加上:line-height="父标签的高度"-->
+
+
+</body>
+</html>
